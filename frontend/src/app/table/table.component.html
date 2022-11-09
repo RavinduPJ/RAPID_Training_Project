@@ -1,0 +1,13 @@
+<div class="k-block">
+    <button kendoButton (click)="onClickButtonOne()" fillMode="outline" class="custom-size" icon="pdf" >Export PDF</button>
+    <button kendoButton (click)="onClickButtonTwo()" fillMode="outline" class="custom-size" icon="pdf" >Button 2</button>
+</div>
+
+<div class="studentTable">
+    <kendo-grid [data]="gridData">
+        <kendo-grid-column field="ProductID" title="ID"> </kendo-grid-column>
+        <kendo-grid-column field="ProductName" title="Name"> </kendo-grid-column>
+        <kendo-grid-column field="Category.CategoryName" title="Category"></kendo-grid-column>
+        <kendo-grid-column field="UnitPrice" title="Price"> </kendo-grid-column>
+    </kendo-grid>
+</div>
