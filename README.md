@@ -1,1 +1,0 @@
-"# Rapid Training Project" 
